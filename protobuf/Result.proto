@@ -1,0 +1,7 @@
+option java_package = "com.alone.game.netty.protobuf";
+option java_outer_classname = "ResultPro";
+option optimize_for = SPEED;
+message Result {
+    optional int32 code = 1 [default = 1];
+    optional string msg = 2 [default = "success"];
+}

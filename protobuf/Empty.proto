@@ -1,0 +1,6 @@
+option java_package = "com.alone.game.netty.protobuf";
+option java_outer_classname = "EmptyPro";
+option optimize_for = SPEED;
+message Empty {
+
+}
